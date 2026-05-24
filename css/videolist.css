@@ -1,0 +1,75 @@
+p{
+    font-family: Roboto, Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(241, 241, 241);
+}
+
+body{
+  background-color: rgb(15, 15, 15);
+}
+
+.base{
+  margin-left: 15px;
+  margin-bottom: 15px;
+  width: 830.2px;
+  height: 230px;
+  display: inline-block;
+}
+
+.link, .channel{
+    text-decoration: none;
+}
+
+.pic{
+  display: inline-block;
+  width: 410px;
+  border-radius: 15px;
+  margin-right: 14px;
+  cursor: pointer;
+}
+
+.description{
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.avatar{
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+}
+
+.creator{
+  display: block;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.name{
+  display: inline-block;
+  vertical-align: top;
+  transition: color 0.05s;
+}
+
+.name:hover{
+  color: rgb(241, 241, 241);
+}
+
+.title{
+  margin-bottom: 5px;
+}
+
+.stats, .name, .des{
+  color: rgb(170, 170, 170);
+  font-size: 12px;
+}
+
+.stats{
+  margin-bottom: 11px;
+}
+
+.name{
+  font-size: 14px;
+}
