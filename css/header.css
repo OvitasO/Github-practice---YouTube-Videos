@@ -3,11 +3,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 60px;
+  height: 56px;
   align-items: center;
   padding-left: 16px;
   padding-right: 16px;
-  background-color: rgba(15, 15, 15, 0.98);
+  background-color: rgba(15, 15, 15, 0.9);
+  backdrop-filter: blur(10px);
   
   z-index: 100;
   position: fixed;
@@ -62,13 +63,8 @@
   align-content: center;
   flex: 1;
   margin-right: 100px;
-  margin-left: 45px;
+  margin-left: 49px;
   max-width: 700px;
-}
-
-.rightside {
-  background-color: lightblue;
-  width: 150px;
 }
 
 .search-bar {
@@ -84,7 +80,7 @@
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   border: #303030 solid 1px;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgb(15, 15, 15);
   color: white;
   outline: none;
 }
@@ -96,6 +92,8 @@
   padding-left: 0px;
 
 }
+
+
 
 .middleside:has(.search-bar:focus) .left-search {
   opacity: 1;
@@ -126,7 +124,7 @@
 
 .right-search {
   background-color: rgba(255, 255, 255, 0.08);
-  width: 60px;
+  width: 64px;
   height: 37;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
@@ -143,19 +141,19 @@
 }
 
 .voice-button{
-  width: 38px;
-  height: 38px;
+  width: 39px;
+  height: 39px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   border: none;
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: rgba(255, 255, 255, 0.1);
   margin-left: 17px;
 }
 
 .voice-button:hover{
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
 .voice{
@@ -163,3 +161,61 @@
   height: 24px;
   cursor: pointer;
 }
+
+.rightside {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.outer-upload{
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+}
+
+.outer-upload:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.upload{
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.outer-notifications{
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  margin-right: 13px;
+}
+
+.outer-notifications:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.notifications{
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.profile{
+  width: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
