@@ -10,8 +10,42 @@
 }
 
 .leftside {
-  background-color: lightblue;
-  width: 170px;
+  display: flex;
+  align-items: center;
+}
+
+.outer-lines {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 17px;
+  border: none;
+  background-color: transparent;
+}
+
+.outer-lines:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.lines {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.region{
+  font-size: 10px;
+  color: rgb(167, 167, 167);
+  margin-bottom: 19px;
+  margin-left: 4px;
+}
+
+.main-page{
+  line-height: 0;
+  text-decoration: none;
 }
 
 .middleside {
@@ -20,7 +54,7 @@
   align-content: center;
   flex: 1;
   margin-right: 100px;
-  margin-left: 75px;
+  margin-left: 45px;
   max-width: 700px;
 }
 
