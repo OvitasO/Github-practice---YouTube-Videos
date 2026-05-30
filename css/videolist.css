@@ -1,8 +1,8 @@
 .base{
   margin-left: 15px;
   margin-bottom: 15px;
-  height: 230px;
-  display: inline-block;
+  height: 280.55px;
+  display: flex;
 }
 
 .link{
@@ -15,7 +15,7 @@
 
 .pic{
   display: inline-block;
-  width: 410px;
+  width: 500px;
   border-radius: 15px;
   margin-right: 14px;
   cursor: pointer;
@@ -38,6 +38,10 @@
   display: inline-block;
   vertical-align: top;
   cursor: pointer;
+  height: 100px;
+
+  min-width: 300px;
+  flex-shrink: 1;
 }
 
 .avatar{
