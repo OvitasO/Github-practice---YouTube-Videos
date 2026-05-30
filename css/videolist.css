@@ -1,13 +1,12 @@
-.main {
-  margin-top: 70px;
-}
-
 .base{
   margin-left: 15px;
   margin-bottom: 15px;
-  width: 830.2px;
   height: 230px;
   display: inline-block;
+}
+
+.link{
+  position: relative;
 }
 
 .link, .channel{
@@ -20,6 +19,19 @@
   border-radius: 15px;
   margin-right: 14px;
   cursor: pointer;
+}
+
+.time {
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 3px 3px 3px;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 12px;
+  right: 27px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.638) 
 }
 
 .description{
