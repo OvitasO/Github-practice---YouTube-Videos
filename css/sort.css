@@ -1,0 +1,75 @@
+.sort{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 16px;
+  margin-top: -4px;
+  margin-left: 4px;
+}
+
+.sort-buttons{
+  display: flex;
+  align-items: center;
+}
+
+.sort-button{
+  height: 32px;
+
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(241, 241, 241);
+
+  background-color: rgba(255, 255, 255, 0.094);
+
+  border: none;
+  border-radius: 8px;
+
+  padding-top: 1px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.sort-button.active{
+  color: rgb(0, 0, 0);
+
+  background-color: rgba(255, 255, 255, 0.927);
+}
+
+.filter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6.5px;
+  margin-right: 23px;
+
+  height: 35px;
+  width: 115px;
+
+  border: none;
+  border-radius: 20px;
+
+  background-color: transparent;
+  cursor: pointer;
+
+  color: rgb(241, 241, 241);
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Roboto, Arial;
+  
+}
+
+.filter:hover{
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.filter-icon{
+  width: 24px;
+  height: 24px;
+
+  padding-bottom: 1px;
+}
