@@ -21,6 +21,8 @@
 .leftside {
   display: flex;
   align-items: center;
+  flex: 2.1;
+  min-width: 205px;
 }
 
 .outer-lines {
@@ -61,9 +63,9 @@
   display: flex;
   flex-direction: row;
   align-content: center;
-  flex: 1;
-  margin-right: 237px;
-  margin-left: 186px;
+  flex: 4.1;
+  /* margin-right: 112px;
+  margin-left: 60px; */
   position: relative;
 }
 
@@ -71,7 +73,7 @@
   width: 19px;
   height: 11px;
   position: absolute;
-  right: 131px;
+  right: 130px;
   top: 15px;
   cursor: pointer;
 }
@@ -81,7 +83,7 @@
   font-weight: 400;
   font-size: 16px;
   height: 37px;
-  flex: 1;
+  flex: 3;
   width: 0px;
   padding-left: 16px;
   padding-top: 1px;
@@ -141,7 +143,7 @@
 
 .right-search {
   background-color: rgba(255, 255, 255, 0.08);
-  width: 63.5px;
+  width: 63px;
   height: 37;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
@@ -182,6 +184,8 @@
 .rightside {
   display: flex;
   align-items: center;
+  justify-content: end;
+  flex: 2.2;
   gap: 10px;
   margin-right: 10px;
   flex-shrink: 0;
