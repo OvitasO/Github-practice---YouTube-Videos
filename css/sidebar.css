@@ -43,6 +43,8 @@
   cursor: pointer;
 
   position: relative;
+
+  text-decoration: none;
 }
 
 .sidebar-item.heading{
@@ -144,6 +146,7 @@
   color: rgb(170, 170, 170);
 
   cursor: pointer;
+  text-decoration: none;
 
   margin-right: 8px;
   display: inline-block;
