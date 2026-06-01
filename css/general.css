@@ -16,10 +16,20 @@ body{
 @media (max-width: 1200px) {
   .sidebar {
     width: 64px;
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+
+  .sidebar-nav{
+    display: none;
+  }
+
+  .sidebar-shrinked{
+    display: flex;
   }
 
   body{
-    padding-left: 85px;
+    padding-left: 90px;
   }
 }
 
@@ -118,6 +128,14 @@ body{
 @media (max-width: 880px) {
     .sidebar {
     width: 0px;
+  }
+
+    .sidebar-nav{
+    display: none;
+  }
+
+  .sidebar-shrinked{
+    display: none;
   }
 
   body{

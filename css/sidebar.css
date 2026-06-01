@@ -1,3 +1,37 @@
+.sidebar-shrinked{
+  display: none;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.shrinked-buttons{
+  width: 64px;
+  padding-top: 16px;
+  padding-bottom: 14px;
+  border-radius: 10px;
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.shrinked-buttons:hover{
+  background-color: rgba(255, 255, 255, 0.094);
+}
+
+.shrinked-buttons.top{
+  margin-top: 4px;
+}
+
+.shrinked-text{
+  font-size: 10px;
+  font-family: Roboto, Arial;
+  color: rgb(241, 241, 241);
+}
+
 .sidebar {
   width: 240px; 
   position: fixed;
@@ -64,6 +98,10 @@
 .main-pics{
   width: 24px;
   height: 24px;
+}
+
+.main-pics.shrinked{
+  padding-bottom: 7px;
 }
 
 .avatar-pics{
