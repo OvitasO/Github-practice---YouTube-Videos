@@ -169,16 +169,40 @@
   border: none;
   background-color: rgba(255, 255, 255, 0.1);
   margin-left: 16px;
+  position: relative;
 }
 
 .voice-button:hover{
   background-color: rgba(255, 255, 255, 0.25);
 }
 
+
 .voice{
   width: 24px;
   height: 24px;
   cursor: pointer;
+}
+
+.tooltip{
+  position: absolute;
+  top: 55px;
+  right: -36spx;
+
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  border-radius: 5px;
+  color: rgb(241, 241, 241);
+  padding: 10px;
+  white-space: nowrap;
+
+  pointer-events: none;
+  background-color: rgba(97, 97, 97, 0.95);
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.voice-button:hover .tooltip{
+  opacity: 1;
 }
 
 .rightside {
@@ -200,10 +224,15 @@
   justify-content: center;
   border: none;
   background-color: transparent;
+  position: relative;
 }
 
 .outer-upload:hover{
   background-color: rgba(255, 255, 255, 0.2);
+}
+
+.outer-upload:hover .tooltip{
+  opacity: 1;
 }
 
 .upload{
@@ -222,10 +251,15 @@
   border: none;
   background-color: transparent;
   margin-right: 12px;
+  position: relative;
 }
 
 .outer-notifications:hover{
   background-color: rgba(255, 255, 255, 0.2);
+}
+
+.outer-notifications:hover .tooltip{
+  opacity: 1;
 }
 
 .notifications{
