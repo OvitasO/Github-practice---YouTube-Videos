@@ -1,5 +1,4 @@
 .header {
-  color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -56,7 +55,6 @@
 
 .main-page{
   line-height: 0;
-  text-decoration: none;
 }
 
 .middleside {
@@ -64,8 +62,6 @@
   flex-direction: row;
   align-content: center;
   flex: 4.1;
-  /* margin-right: 112px;
-  margin-left: 60px; */
   position: relative;
 }
 
@@ -79,7 +75,6 @@
 }
 
 .search-bar {
-  font-family: Roboto, Arial;
   font-weight: 400;
   font-size: 16px;
   height: 37px;
@@ -97,7 +92,6 @@
 }
 
 .search-bar::placeholder {
-  font-family: Roboto, Arial;
   color: rgb(120, 120, 120);
   opacity: 1;
   font-size: 16px;
@@ -186,12 +180,9 @@
 .tooltip{
   position: absolute;
   top: 55px;
-  right: -36spx;
 
-  font-family: Roboto, Arial;
   font-size: 12px;
   border-radius: 5px;
-  color: rgb(241, 241, 241);
   padding: 10px;
   white-space: nowrap;
 

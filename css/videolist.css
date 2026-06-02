@@ -10,10 +10,6 @@
   position: relative;
 }
 
-.link, .channel{
-    text-decoration: none;
-}
-
 .pic{
   display: inline-block;
   width: 500px;
@@ -23,7 +19,6 @@
 }
 
 .time {
-  font-family: Roboto, Arial;
   font-size: 12px;
   font-weight: 500;
   padding: 3px 3px 3px 3px;

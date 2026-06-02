@@ -16,10 +16,8 @@
 .sort-button{
   height: 32px;
 
-  font-family: Roboto, Arial;
   font-size: 14px;
   font-weight: 500;
-  color: rgb(241, 241, 241);
 
   background-color: rgba(255, 255, 255, 0.094);
 
@@ -57,10 +55,8 @@
   background-color: transparent;
   cursor: pointer;
 
-  color: rgb(241, 241, 241);
   font-size: 14px;
   font-weight: 500;
-  font-family: Roboto, Arial;
   
 }
 
