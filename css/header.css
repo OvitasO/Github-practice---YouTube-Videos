@@ -74,6 +74,41 @@
   cursor: pointer;
 }
 
+.keyboard.busy{
+  right: 153px;
+}
+
+.hide-cross{
+  display: none;
+}
+
+.outer-cross{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+
+  position: absolute;
+  right: 115px;
+
+  cursor: pointer;
+}
+
+.outer-cross:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.cross{
+  width: 24px;
+  height: 24px;
+}
+
 .search-bar {
   font-weight: 400;
   font-size: 16px;

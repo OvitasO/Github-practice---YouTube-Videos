@@ -13,6 +13,7 @@
       <link rel="Stylesheet" href="../css/general.css">
       <link rel="icon" href="../images/video-img/YT.png">
       <script src="../javaScript/sort.js" defer></script>
+      <script src="../javaScript/header.js" defer></script>
   </head>
   <body>
 
@@ -31,8 +32,11 @@
           <div class="left-search">
             <img class="activeimg" src="../images/header-img/search-icon.svg">
           </div>
-            <input class="search-bar" type="text" placeholder="Поиск">
-            <img class="keyboard" src="../images/header-img/keyboard-icon.png">
+            <input class="search-bar" id="InputElem" type="text" placeholder="Поиск">
+            <img class="keyboard" id="keyboardElem" src="../images/header-img/keyboard-icon.png">
+            <button class="hide-cross" id="crossElem">
+              <img class="cross" src="../images/header-img/cross-button.svg">
+            </button>
             <button class="right-search" title="Поиск">
               <img class="search-img" src="../images/header-img/search-icon.svg">
             </button>
