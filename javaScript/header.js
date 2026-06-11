@@ -4,6 +4,7 @@ const inputElem = document.getElementById('InputElem');
 const keyboardElem = document.getElementById('keyboardElem');
 const crossElem = document.getElementById('crossElem');
 
+inputElem.value = localStorage.getItem('textInInput');
 renderInput();
 
 //Checks if the input has any text in it
@@ -26,6 +27,7 @@ function renderInput() {
     keyboardElem.classList.remove('busy');
     crossElem.classList.remove('outer-cross');
   }
+  localStorage.setItem('textInInput', `${inputElem.value}`)
 }
 
 inputElem.addEventListener('input', renderInput);

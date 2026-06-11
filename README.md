@@ -27,7 +27,7 @@ This is not meant to be a full YouTube clone or a production-ready website. It i
 - Fixed header
 - `z-index`
 - `backdrop-filter`
-- Custom scrollbar styling (doesn't work on some browsers)
+- Custom scrollbar styling (doesn't work in some browsers)
 - Working with spacing, alignment, and visual details
 - Basic JavaScript
 
