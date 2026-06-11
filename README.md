@@ -14,7 +14,6 @@ This is not meant to be a full YouTube clone or a production-ready website. It i
 - Search input focus state
 - Search button
 - Right header icons
-- Avatar area
 - Custom scrollbar
 - Video list layout
 - Dark theme styling
@@ -28,18 +27,14 @@ This is not meant to be a full YouTube clone or a production-ready website. It i
 - Fixed header
 - `z-index`
 - `backdrop-filter`
-- Custom scrollbar styling
+- Custom scrollbar styling (doesn't work on some browsers)
 - Working with spacing, alignment, and visual details
+- Basic JavaScript
 
 ## Planned improvements
 
-- Sidebar navigation
-- Video duration badges on thumbnails
-- Tooltips for header icons
 - Better responsive layout
-- Keyboard icon inside the search bar
-- More accurate spacing and sizing
-- JavaScript behavior later
+- More JavaScript behavior later
 
 ## Notes
 
