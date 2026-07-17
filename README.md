@@ -31,11 +31,6 @@ This is not meant to be a full YouTube clone or a production-ready website. It i
 - Working with spacing, alignment, and visual details
 - Basic JavaScript
 
-## Planned improvements
-
-- Better responsive layout
-- More JavaScript behavior later
-
 ## Notes
 
 Some text in the interface is in Russian because the layout was based on a localized YouTube page. The project itself is focused on layout and styling practice, not on the language of the content.
